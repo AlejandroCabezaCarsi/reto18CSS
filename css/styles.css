@@ -1,0 +1,96 @@
+
+
+.escenarioPequeño1{ 
+border: solid blue 1em;
+width: 40em;
+height: 20em;
+margin-bottom: 5em;
+background:#80E5EB ;
+}
+.cielo { 
+    background: url(../img/f03.png);
+    width: 40em;
+    height: 20em;
+    background-repeat: repeat-x;
+    background-size: 45em;
+    position: fixed;
+    background-position-y: -1em ;
+}
+
+.escenario { 
+    background-image: url(../img/f02.png) ;
+    width: 40em;
+    height: 20em;
+    background-repeat: no-repeat;
+    background-position-y: -2.5em ;
+    position: fixed;
+    background-size: 45em;
+    
+
+}
+
+.suelo{
+    background-image: url("../img/f01.png");
+    width: 40em;
+    height: 20em;
+    background-repeat: repeat-x;
+    background-position-y: 16.1em;    
+}
+
+.escenarioGrande {
+border: solid red 1em; 
+width: 70em;
+height: 50em;
+margin-left: 5em;
+background: #80E5EB;
+display: flex;
+flex-direction: column;
+justify-content:space-evenly
+
+
+}
+
+.cieloEscenarioGrande {
+background: url(../img/f03.png);
+width: 70em;
+height: 14em;
+background-repeat: repeat-x;
+background-size: 40em;
+
+
+}
+
+
+.escenarioEscenarioGrande {
+background-image: url(../img/f02.png) ;
+width: 70em;
+height: 45em;
+background-repeat: no-repeat;
+background-position: bottom;
+margin-bottom: 0em;
+padding-bottom: 0em;
+background-position-y: 20.8em ;
+background-position-x: 0em;
+background-size: 35em;
+
+}
+
+.sueloEscenarioGrande {
+background-image: url("../img/f01.png");
+width: 70em;
+height: 1em;
+background-repeat: repeat-x;
+background-position: bottom;
+margin-top: 0em;
+padding-top: 0em;
+
+
+}
+
+.escenarioPequeño2{
+border: solid blue 1em; 
+width: 40em;
+height: 20em;
+margin-top: 5em;
+background: #80E5EB;
+}
